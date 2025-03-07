@@ -16,15 +16,15 @@
 ## Dataset - `diabetes_prediction_dataset.csv`
 ### The dataset used in this study comprises various demographic, medical history, and lifestyle-related attributes, including:
 
-Age	 -  Patient’s age in years.
-Gender - Male, female, or other
-BMI (Body Mass Index) - A measure of body fat based on height and weight.
-Hypertension - Presence (1) or absence (0) of high blood pressure.
-Heart Disease	- Presence (1) or absence (0) of cardiovascular conditions.
-Smoking History	- Past or present smoking habits.
-HbA1c Level	- Measure of blood sugar levels over the past 2-3 months.
-Blood Glucose Level- 	Instantaneous blood sugar measurement.
-Diabetes - Target variable (1 for diabetic, 0 for non-diabetic).
+> Age	 -  Patient’s age in years.
+> Gender - Male, female, or other
+> BMI (Body Mass Index) - A measure of body fat based on height and weight.
+> Hypertension - Presence (1) or absence (0) of high blood pressure.
+> Heart Disease	- Presence (1) or absence (0) of cardiovascular conditions.
+> Smoking History	- Past or present smoking habits.
+> HbA1c Level	- Measure of blood sugar levels over the past 2-3 months.
+> Blood Glucose Level- 	Instantaneous blood sugar measurement.
+> Diabetes - Target variable (1 for diabetic, 0 for non-diabetic).
 
 #### MODEL WORKFLOW
 ### To provide a structured overview of the approach, the following steps outline the workflow of the predictive model:
@@ -32,13 +32,13 @@ Diabetes - Target variable (1 for diabetic, 0 for non-diabetic).
 ### Data Preprocessing: Handling missing values, encoding categorical variables, and normalizing numerical features.
 ### Class Balancing: Applying Synthetic Minority Over-sampling Technique (SMOTE) to address class imbalance and enhance model fairness.
 ### Model Selection: Implementing and evaluating multiple machine learning classifiers.Seven ML classifiers were selected for evaluation: 
-Random Forest
-Support Vector Machine (SVM)
-Logistic Regression
-K-Nearest Neighbors (KNN)
-Naïve Bayes
-Gradient Boosting
-Decision Tree
+### Random Forest
+### Support Vector Machine (SVM)
+### Logistic Regression
+### K-Nearest Neighbors (KNN)
+### Naïve Bayes
+### Gradient Boosting
+### Decision Tree
 
 ### Training and Testing: Splitting the dataset into training and testing sets and fitting the models accordingly.
 ### Evaluation: Assessing model performance using accuracy, precision, recall, F1-score, and ROC AUC.
